@@ -47,8 +47,6 @@ dependencies {
 	testAnnotationProcessor 'org.projectlombok:lombok'
 
 	implementation 'mysql:mysql-connector-java' // mysql
-
-	implementation 'com.github.ulisesbocchio:jasypt-spring-boot-starter:3.0.4' // Jasypt // 데이터베이스 접속정보 암호화
 }
 
 tasks.named('test') {
